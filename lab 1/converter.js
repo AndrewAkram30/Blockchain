@@ -23,6 +23,7 @@ function readJsonFromFile(fileName) {
     }
 }
 
+
 class CurrencyConverter extends EventEmitter {
     static calculateRates(usdPrices) {
         let rates = {};
